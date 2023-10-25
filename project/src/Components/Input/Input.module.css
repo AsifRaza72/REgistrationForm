@@ -1,0 +1,49 @@
+.login {
+   width: 90%;
+   max-width: 40rem;
+   margin: 2rem auto;
+   padding: 2rem;
+ }
+.form_control {
+   margin: 1rem 0;
+   display: flex;
+   align-items: stretch;
+  
+ }
+  .form_control label,
+.form_control input {
+  display: block;
+}
+
+.form_control input {
+   flex: 3;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  display: inline;
+  border: 1px solid #ccc;
+}
+.form_control label{
+   font-weight: bold;
+   flex: 1;
+   color: #464646;
+   margin-bottom: 0.5rem;
+   font-family: 'Courier New', Courier, monospace;
+
+ }
+ .form_control input:focus {
+   outline: none;
+   border-color: #7e348d;
+   background: #f6dbfc;
+ }
+
+
+.form_control.invalid input{
+   color: red;
+  border: 1.5px solid red;
+  border-color: red; 
+  
+}
+.button{
+   text-align: center;
+}
